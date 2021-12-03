@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: bqcajeroauth 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bqcajeroauth
+  template:
+    metadata:
+      labels:
+        app: bqcajeroauth 
+    spec:
+      containers:
+        - name: bqcajeroauth 
+          image: acrbbq.azurecr.io/bqcajeroauth
+          ports:
+          - containerPort: 8101

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2021.12.02 a las 08:54:19 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://espe.edu.ec/BQAuth">
+    <schemaBindings map="false">
+      <package name="ec.edu.espe.bqauth"/>
+    </schemaBindings>
+    <bindings scd="tns:loginRequest">
+      <class ref="ec.edu.espe.bqauth.LoginRequest"/>
+    </bindings>
+    <bindings scd="~tns:loginSerializer">
+      <class ref="ec.edu.espe.bqauth.LoginSerializer"/>
+    </bindings>
+    <bindings scd="tns:loginResponse">
+      <class ref="ec.edu.espe.bqauth.LoginResponse"/>
+    </bindings>
+    <bindings scd="~tns:userSerializer">
+      <class ref="ec.edu.espe.bqauth.UserSerializer"/>
+    </bindings>
+    <bindings scd="tns:createRequest">
+      <class ref="ec.edu.espe.bqauth.CreateRequest"/>
+    </bindings>
+    <bindings scd="~tns:userCreationSerializer">
+      <class ref="ec.edu.espe.bqauth.UserCreationSerializer"/>
+    </bindings>
+    <bindings scd="tns:createResponse">
+      <class ref="ec.edu.espe.bqauth.CreateResponse"/>
+    </bindings>
+    <bindings scd="~tns:user">
+      <class ref="ec.edu.espe.bqauth.User"/>
+    </bindings>
+    <bindings scd="tns:removeRequest">
+      <class ref="ec.edu.espe.bqauth.RemoveRequest"/>
+    </bindings>
+    <bindings scd="tns:removeResponse">
+      <class ref="ec.edu.espe.bqauth.RemoveResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
